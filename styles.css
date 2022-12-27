@@ -3,77 +3,96 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    color:#fff;
+    color: #fff;
     text-decoration: none;
 }
+
 /* PRIMEIRA PARTE */
 .main-inicial {
-    background: linear-gradient(90deg, rgb(8,13,18) 0%, rgba(3,13,31,1) 46%); 
+    background: linear-gradient(90deg, rgb(8, 13, 18) 0%, rgba(3, 13, 31, 1) 46%);
 }
+
 .container-1 {
     background: url("./assets/background-main-inicio.jpg.webp");
     background-position: top center;
     background-repeat: no-repeat;
-    width: 1140px;
+    width: 100%;
+    max-width: 1140px;
     margin: 0 auto;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
+}
 
-}
 .container-2 {
-    width: 420px;
-    padding-left:15px;
+    width: 100%;
+    max-width: 420px;
+    padding-left: 15px;
 }
+
 .logo-missao-zero {
     width: 230px;
     height: 230px;
     margin-left: -44px;
 }
-.primeiro-texto-main-inicial{
+
+.primeiro-texto-main-inicial {
     color: #cfff00;
     font-size: 20px;
     font-weight: 600;
     line-height: 1.2em;
     margin-bottom: 20px;
 }
+
 .segundo-texto-main-inicial {
-    font-family: Poppins,Sans-serif;
+    font-family: Poppins, Sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.2em;
     margin-bottom: 20px;
 }
+
 .terceiro-texto-main-inicial {
     margin-bottom: 5px;
-    font-family: Poppins,Sans-serif;
+    font-family: Poppins, Sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
+
 .terceiro-texto-main-inicial img {
-    width: 15px;
+    max-width: 15px;
+    width: 100%;
+    max-height: 15px;
+    height: 100%;
 }
-input, button {
-    width: 370px;
+
+input,
+button {
+    max-width: 370px;
+    width: 100%;
     height: 35px;
     margin-left: 20px;
     border-radius: 7px;
     border: none;
 }
+
 input {
     outline: none;
     background: #FFFFFF33;
     padding-left: 10px;
     margin-top: 15px;
-
+    margin-bottom: 10px;
 }
+
 button {
     color: #000;
     cursor: pointer;
     background-color: #cfff00;
     transition: 1s;
 }
-button:hover{
+
+button:hover {
     transform: scale(1.1);
 }
+
 /* FIM PRIMEIRA PARTE */
 
 /* INICIO SEGUNDA PARTE */
@@ -83,13 +102,17 @@ button:hover{
     background-position: top center;
     background-repeat: no-repeat;
 }
+
 .container-1-parte-2 {
-    width: 1140px;
+    max-width: 1140px;
+    width: 100%;
     margin: 0 auto;
-    padding-top: 15px; 
+    padding-top: 15px;
 }
+
 .card-1-parte-2 {
-    height: 120px;
+    max-height: 120px;
+    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -97,95 +120,137 @@ button:hover{
     border-radius: 7px;
     margin-bottom: 20px;
     padding: 20px;
-    -webkit-box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.75);
-    box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.75);
 }
+
 .card-1-parte-2 div {
     display: flex;
     align-items: center;
 }
+
 .card-1-parte-2 div img {
-    width: 35px;
+    max-width: 35px;
+    width: 100%;
     margin-right: 15px;
 }
+
 .card-1-parte-2 div p {
     font-size: 16px;
     font-weight: 600;
 }
- .container-1-parte-2 h2 {
+
+.container-1-parte-2 h2 {
     text-align: center;
     font-size: 23px;
     font-weight: 600;
     line-height: 1.2em;
     margin: 60px 0px;
- }
- .card-2-parte-2 {
-    display:grid;
+}
+
+.card-2-parte-2 {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     align-items: center;
- }
- .card-2-parte-2 div {
+}
+
+.card-2-parte-2 div {
     padding: 30px;
     background-color: #fffFFF1A;
     border-radius: 13px;
     text-align: center;
-    height: 300px;
+    max-height: 300px;
+    height: 100%;
     transition: 1s;
 
- }
- .card-2-parte-2 div p {
+}
+
+.card-2-parte-2 div p {
     margin-bottom: 10px;
     line-height: 22px;
- }
- .card-2-parte-2 div p strong{
+}
+
+.card-2-parte-2 div p strong {
     color: #9e9e9e;
- }
- .card-2-title-parte-2{
+}
+
+.card-2-title-parte-2 {
     margin-bottom: 10px;
     font-size: 19px;
     font-weight: 500;
     color: #cfff00;
- }
- .card-2-text-parte-2 {
+}
+
+.card-2-text-parte-2 {
     color: #9e9e9e;
-    font-family: Poppins,Sans-serif;
+    font-family: Poppins, Sans-serif;
     font-size: 14px;
     font-weight: 400;
- }
- .card-2-parte-2 div img {
-    width: 50px;
-    height: 50px;
+}
+
+.card-2-parte-2 div img {
+    max-width: 50px;
+    width: 100%;
+    max-height: 50px;
+    height: 100%;
     margin-bottom: 15px;
- }
- .card-2-parte-2 div:nth-child(2) {
+}
+
+.card-2-parte-2 div:nth-child(2) {
     padding: 30px;
-    height: 350px;
- }
- .card-2-parte-2 div:nth-child(2) p {
+    max-height: 350px;
+    height: 100%;
+}
+
+.card-2-parte-2 div:nth-child(2) p {
     margin-bottom: 15px;
- }
- /* .card-2-parte-2 div:nth-child(1):hover {
-    height: 330px;
- }
- .card-2-parte-2 div:nth-child(2):hover {
-    height: 380px;
- }
- .card-2-parte-2 div:nth-child(3):hover {
-    height: 330px;
- } */
- .container-1-text-parte-2 {
+}
+
+.card-2-parte-2 div:nth-child(1) {
+    transition: all .2s ease-in-out;
+}
+
+.card-2-parte-2 div:nth-child(1):hover {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+.card-2-parte-2 div:nth-child(2) {
+    transition: all .2s ease-in-out;
+}
+
+.card-2-parte-2 div:nth-child(2):hover {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+.card-2-parte-2 div:nth-child(3) {
+    transition: all .2s ease-in-out;
+}
+
+.card-2-parte-2 div:nth-child(3):hover {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+.container-1-text-parte-2 {
     font-size: 17px;
     font-weight: 200;
     line-height: 1.2em;
     text-align: center;
     margin-top: 60px;
     margin-bottom: 15px;
- }
- .container-1-button-parte-2 {
+}
+
+.container-1-button-parte-2 {
     margin: 0 auto;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     background-color: #cfff00;
     height: 45px;
     color: #000000;
@@ -200,17 +265,18 @@ button:hover{
     align-items: center;
     border-radius: 7px;
     cursor: pointer;
-    -webkit-box-shadow: 3px 3px 33px 6px rgba(207,255,0,1);
-    -moz-box-shadow: 3px 3px 33px 6px rgba(207,255,0,1);
-    box-shadow: 3px 3px 33px 6px rgba(207,255,0,1);
- }
- 
- @keyframes tamanho {
+    -webkit-box-shadow: 3px 3px 33px 6px rgba(207, 255, 0, 1);
+    -moz-box-shadow: 3px 3px 33px 6px rgba(207, 255, 0, 1);
+    box-shadow: 3px 3px 33px 6px rgba(207, 255, 0, 1);
+}
+
+@keyframes tamanho {
     to {
         -webkit-transform: scale(0.9);
         transform: scale(0.9);
-      }
+    }
 }
+
 /* FIM SEGUNDA PARTE */
 
 /* INICIO TERCEIRA PARTE */
@@ -220,12 +286,19 @@ button:hover{
     background-image: url("./assets/background-parte-3.webp");
     background-position: top center;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 100%;
+    padding-bottom: 20px;
 }
+
+.imagem-css-responsivo {
+    display: none;
+}
+
 .container-parte-3 {
     margin-left: 600px;
     padding-top: 80px;
-    width: 650px;
+    width: 100%;
+    max-width: 650px;
 }
 .title-parte-3 {
     color: #cfff00;
@@ -234,12 +307,13 @@ button:hover{
     line-height: 1.2em;
     margin-bottom: 35px;
 }
+
 .texto-parte-3 {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.5em;
-    margin-bottom: 20px;
 }
+
 /* FIM PARTE 3 */
 
 /* INICIO PARTE 4 */
@@ -249,34 +323,42 @@ button:hover{
     background-position: top center;
     background-repeat: no-repeat;
 }
+
 .container-parte-4 {
     padding: 100px;
-    width: 1140px;
+    width: 100%;
+    max-width: 1140px;
     margin: 0 auto;
     text-align: center;
 }
+
 .title-parte-4 {
     color: #fff;
-    font-family: Poppins,Sans-serif;
+    font-family: Poppins, Sans-serif;
     font-size: 23px;
     font-weight: 600;
     line-height: 1.2em;
     margin-bottom: 20px;
 }
+
 .texto-parte-4 {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.2em;
     margin-bottom: 25px;
 }
-/* FIM PARTE 4 */
 
+/* FIM PARTE 4 */
+/* INICIO FOOTER */
 footer {
     padding: 30px 0;
     background-color: #000000;
     text-align: center;
 }
+
 footer p {
     font-size: 15px;
     font-weight: 200;
 }
+
+/* FIM FOOTER */

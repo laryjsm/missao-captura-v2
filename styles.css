@@ -40,6 +40,7 @@
     font-weight: 600;
     line-height: 1.2em;
     margin-bottom: 20px;
+    margin-top: -50px;
 }
 
 .segundo-texto-main-inicial {
@@ -72,7 +73,7 @@ input {
     outline: none;
     background: #FFFFFF33;
     padding-left: 10px;
-    margin-top: 15px;
+    margin-top: -25px;
     margin-bottom: 10px;
 }
 
